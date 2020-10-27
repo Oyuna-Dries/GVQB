@@ -1,0 +1,26 @@
+h2 {
+  font-family: "Smythe", cursive;
+  float: right;
+  padding-right: 40%;
+  font-size: 30px;
+  color: orange;
+}
+body {
+  background-color: rgb(88, 87, 87);
+}
+
+p {
+  float: right;
+  margin: 0 0 0 15px;
+}
+
+.mySlides {
+  float: right;
+}
+
+.aboutUs {
+  padding-left: 10%;
+  font-family: "Smythe", italic;
+  font-size: 25px;
+  color: orange;
+}
