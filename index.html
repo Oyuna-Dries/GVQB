@@ -7,8 +7,8 @@
    <link rel="stylesheet" href="css/theme.css" type="text/css">
    <link rel="stylesheet" href="css/hours.css" type="text/css">
    <link rel="stylesheet" href="css/custom.css" type="text/css">
-   <script src="scripts/hours.js"></script>
-   <script src="scripts/slideshow.js"></script>
+   <script defer src="scripts/hours.js"></script>
+   <script defer src="scripts/slideshow.js"></script>
 
  </head>
 
@@ -42,26 +42,32 @@
      </ul>
      </br>
    </div>
+
+   <div class="contents">
    <h2 id="about">About</h2>
 
-<!-- Slide Show -->
-<section>
-  <img class="mySlides" src="images/pic.jpg" style="width:40%"; height="30%" class="center">
-  <img class="mySlides" src="images/sec.jpg" style="width:40%"; height="30%" class="center">
-  <img class="mySlides" src="images/pic2.jpg" style="width:40%" ; height="30%" class="center">
-</section>
+   <!-- Slide Show -->
+   <div class="card-group">
+     <div class="card">
+       <h2 class="About">About Us.</h2>
 
-<!-- Band Description -->
-<section class="w3-container w3-center w3-content" style="max-width:600px">
-  <h2 class="About">About Us.</h2>
-  
-  <p class="aboutUs">Gentlemen from all corners of Bristol and further a field flock to our unique men’s salon for the pampering and high
-  level of care they know they will receive. Customers are confident that they can count on our discretion and a
-  professional service. They know they will leave our salon feeling and looking their best.
-  
-  We aim to be your home from home, where you always feel special and welcome within our relaxed, unhurried surroundings,
-  all designed to ensure your total relaxation.</p>
-</section>
+       <p class="aboutUs">Gentlemen from all corners of Bristol and further a field flock to our unique men’s salon for
+         the pampering and high
+         level of care they know they will receive. Customers are confident that they can count on our discretion and a
+         professional service. They know they will leave our salon feeling and looking their best.
+
+         We aim to be your home from home, where you always feel special and welcome within our relaxed, unhurried
+         surroundings,
+         all designed to ensure your total relaxation.</p>
+     </div>
+     <div class="card">
+       <img class="mySlides" src="images/pic.jpg" style="height: 400px; object-fit:cover " class="center">
+       <img class="mySlides" src="images/sec.jpg" style="height: 400px; object-fit:cover " class="center">
+       <img class="mySlides" src="images/pic2.jpg" style="height: 400px; object-fit:cover " class="center">
+     </div>
+   </div>
+
+   <!-- Band Description -->
 
    <h2 id="services">Services</h2>
    <div class="card-group">
@@ -96,14 +102,17 @@
 
    <div class="card-group">
      <div class="card">
-      <div id="map-container-google-1" class="z-depth-1-half map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1244.1876553650218!2d-2.539435!3d51.414532!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718f262db60ef1%3A0xb68c928e918b8d!2s23%20Cottle%20Rd%2C%20Stockwood%2C%20Bristol%20BS14%208QR%2C%20UK!5e0!3m2!1sen!2sbe!4v1603810105519!5m2!1sen!2sbe" width="100%" height="400px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-      </div>
+       <div id="map-container-google-1" class="z-depth-1-half map-container">
+         <iframe
+           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1244.1876553650218!2d-2.539435!3d51.414532!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48718f262db60ef1%3A0xb68c928e918b8d!2s23%20Cottle%20Rd%2C%20Stockwood%2C%20Bristol%20BS14%208QR%2C%20UK!5e0!3m2!1sen!2sbe!4v1603810105519!5m2!1sen!2sbe"
+           width="100%" height="400px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+           tabindex="0"></iframe>
+       </div>
      </div>
      <div class="card">
        <div class="business-hours">
          <h2 class="title">No scheduling required, just stop by.</h2>
-       </br>
+         </br>
          <ul class="list-unstyled opening-hours">
            <li>Monday <span class="pull-right">9:00-22:00</span></li>
            <li>Tuesday <span class="pull-right">9:00-22:00</span></li>
@@ -118,6 +127,7 @@
    </div>
 
    <h2 id="gallery">Gallery</h2>
+  </div>
  </body>
 
  </html>
