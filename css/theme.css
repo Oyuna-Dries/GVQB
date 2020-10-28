@@ -7722,7 +7722,6 @@ h2#about {
   border: 2px solid #fda;
   color: #fda;
   font-family: "Smythe", serif;
-  font-style: italic;
   font-size: 20px;
   text-decoration: none;
   margin: 20px auto;
@@ -7744,11 +7743,6 @@ h2#about {
 }
 .fancy-btn:hover {
   color: #eee;
-}
-.fancy-btn:hover:after {
-  border: 2px solid #fda;
-  width: calc(100% - 10px);
-  height: calc(100% + 10px);
 }
 
 #btn-twtr {
