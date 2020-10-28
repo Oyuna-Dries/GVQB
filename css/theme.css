@@ -3790,7 +3790,7 @@ input[type="button"].btn-block {
 
 .jumbotron {
   color: white;
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/head.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -7705,6 +7705,7 @@ h5.card-title {
 h1.display-4 {
   font-family: "Smythe";
   word-spacing: 5px;
+  font-weight: 600;
 }
 h2#services {
   padding: 15% 15% 5% 10%;
