@@ -1,6 +1,7 @@
 /*! Themestr.app `Darkster` Bootstrap 4.3.1 theme */
 /*@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;500;600;700&display=swap');*/
 @import url("https://fonts.googleapis.com/css2?family=Smythe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
 /*! Import Bootstrap 4 variables */
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
@@ -411,6 +412,9 @@ h2,
 h3,
 .h3 {
   font-size: 1.75rem;
+  font-family: "Smythe";
+  word-spacing: 5px;
+  letter-spacing: 5px;
 }
 
 h4,
@@ -7679,12 +7683,87 @@ input[type="button"].btn-block {
 p.aboutUs {
   padding: 0 10%;
   font-size: large;
-  letter-spacing: 3px;
-  font-family: "Smythe", cursive;
-  word-spacing: 10px;
+
+  font-family: "Source Serif Pro", serif;
+
+  padding-top: 10%;
 }
 h2.About {
-  font-family: "Smythe", cursive;
+  font-family: "Smythe";
   color: rgb(211, 78, 16);
   text-align: center;
+}
+p.card-text {
+  font-family: "Source Serif Pro", serif;
+}
+h5.card-title {
+  font-family: "Smythe";
+
+  font-size: 30px;
+}
+h1.display-4 {
+  font-family: "Smythe";
+  word-spacing: 5px;
+}
+h2#services {
+  font-family: "Smythe";
+  text-align: center;
+}
+
+h2#about {
+  font-family: "Smythe";
+  text-align: center;
+}
+
+.fancy-btn {
+  display: inline-block;
+  position: relative;
+  padding: 10px 20px;
+  border: 2px solid #fda;
+  color: #fda;
+  font-family: "Smythe", serif;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px auto;
+  transition: color 0.4s;
+}
+.fancy-btn:after {
+  content: " ";
+  border: 2px solid rgba(0, 0, 0, 0);
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transition: all 0.4s;
+}
+.fancy-btn:hover {
+  color: #eee;
+}
+
+#btn-twtr {
+  clear: both;
+  color: #fff;
+  border: 2px solid;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-family: "Smythe";
+  font-size: 14px;
+  width: 13em;
+  padding: 5px 10px;
+  font-weight: 600;
+  margin: 90px auto;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0px 3px rgba(0, 0, 0, 0.2);
+  opacity: 0.6;
+}
+#btn-twtr:hover {
+  color: rgb(190, 71, 71);
+  opacity: 1;
 }
