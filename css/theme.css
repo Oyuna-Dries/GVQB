@@ -2879,6 +2879,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  margin-top: -160px;
 }
 
 .nav-link {
@@ -3793,7 +3794,7 @@ input[type="button"].btn-block {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 94px);
+  height: 100vh;
 }
 
 @media (min-width: 576px) {
@@ -7718,8 +7719,9 @@ h2#about {
 .fancy-btn {
   display: inline-block;
   position: relative;
+  background-color: black;
   padding: 10px 20px;
-  border: 2px solid #fda;
+  border: 0px solid #fda;
   color: #fda;
   font-family: "Smythe", serif;
   font-size: 20px;
@@ -7742,7 +7744,8 @@ h2#about {
   transition: all 0.4s;
 }
 .fancy-btn:hover {
-  color: #eee;
+  color: black;
+  background-color: white;
 }
 
 #btn-twtr {
