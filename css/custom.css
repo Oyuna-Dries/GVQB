@@ -2,6 +2,7 @@
     .contents {
         padding: 0 calc(100px + 5vw);
     }
+}
 
 .icon {
     width: 32px;
@@ -12,3 +13,11 @@
 .mySlides {
     float: right;
   }
+
+.headerbox {
+    display: block;
+    float: left;
+    background-color: black;
+    margin: 0% 10%;
+    padding: 16px;
+}
