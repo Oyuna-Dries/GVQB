@@ -1,12 +1,4 @@
 
-
-
-<h3><a href="https://github.com/becodeorg/gnt-yu-3-21/tree/master/3.The-Mountain/9.Final-Project">Final project</a></h3>
-
----
-
-
-
  
 # GVQB :barber:
 <p><i>"A vintage themed barbershop located in the small suburb area of Stockwood,
@@ -16,9 +8,10 @@
 
 # Assignment 📝
 
-> This exercise is about client communication, planning and executing. We'll learn to use new design tools, plan our work to save development time, and communicate user stories through UML diagrams.
+> This [exercise](https://github.com/becodeorg/gnt-yu-3-21/tree/master/3.The-Mountain/9.Final-Project) is about client communication, planning and executing. We'll learn to use new design tools, plan our work to save development time, and communicate user stories through UML diagrams.
 
 > [Group Assignment](https://github.com/Oyuna-Dries/GVQB) by [BeCode](https://becode.org/) 🎓
+<h3><a href="https://github.com/becodeorg/gnt-yu-3-21/tree/master/3.The-Mountain/9.Final-Project">Final project</a></h3>
 
 ## _Learning objectives_
  
@@ -39,6 +32,11 @@
 
 - [👩🏻‍💻Oiuna](https://github.com/Ouna-Bilegma)
 - [👨🏼‍💻Dries](https://github.com/DriesDD)
+
+---
+# Live version :computer:
+- [Website](https://competent-edison-706486.netlify.app/)
+
 
 ---
 
